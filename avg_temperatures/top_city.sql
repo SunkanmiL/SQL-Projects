@@ -1,5 +1,5 @@
 -- Displays highest temperatures
--- DML query to list top 3 sorted temperatures during July and Agust
+-- DML query to list top three sorted temperatures during July and Agust
 SELECT city,AVG(value) AS avg_temp
 FROM temperatures
 WHERE month=7 OR month=8
